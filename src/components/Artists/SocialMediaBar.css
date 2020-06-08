@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.social-media-icon {
+  padding: 3px;
+}
