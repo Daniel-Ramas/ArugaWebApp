@@ -13,10 +13,8 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <Header />
         <Route path="/" exact component={Home} />
         <Route path="/artists" exact component={ArtistList} />
-        <Footer />
       </BrowserRouter>
     </>
   );
